@@ -28,12 +28,12 @@
                             <ListView.itemTemplate>
                                 <GridLayout rows="*,*,*" columns="*" class="list-group-item">
                                     <StackLayout orientation="horizontal">
-                                        <Label text="{{ startTime | dateConverter }}" class="h5" textWrap="true" />
-                                        <Label text=" - " class="h5" textWrap="true" />
-                                        <Label text="{{ endTime | dateConverter}}" class="h5" textWrap="true" />
+                                        <Label text="{{ startTime | dateConverter }}" class="h5" textWrap="true" style="color:#fff"/>
+                                        <Label text=" - " class="h5" textWrap="true" style="color:#fff"/>
+                                        <Label text="{{ endTime | dateConverter}}" class="h5" textWrap="true" style="color:#fff"/>
                                     </StackLayout>
                                     <Label text="{{ title  }}" row="1" class="h2" textWrap="true" style="color:#fff"/>
-                                    <Label text="{{ track }}" row="2" class="h5" textWrap="true" />
+                                    <Label text="{{ track }}" row="2" class="h5" textWrap="true" style="color:#fff"/>
                                 </GridLayout>
                             </ListView.itemTemplate>
                         </ListView>

@@ -1,26 +1,14 @@
-import { Observable } from 'data/observable';
-import { SpeakerService  } from '../../services/speaker.service'
+import {BaseViewModel} from '../../utils/base-view-model';
+import {Session} from '../../models/Session'
 
-class SessionsViewModel extends Observable{
-
-    private _service:SpeakerService;
+class SessionsViewModel extends BaseViewModel<Session>{
     
-    private _items : Array<any>;
-    public get items() : Array<any> {
-        return this._items;
-    }
-    public set items(v : Array<any>) {
-        this._items = v;
-        this.notifyPropertyChange("items",v);
-    }
-
     constructor() {
         super();
-        this._service = new SpeakerService();
     }
     
     public LoadSessions(){
-        this._service.getSessions().then((sessions:Array<any>) => {
+        this.service.getSessions().then((sessions:Session[]) => {
             this.items = sessions;
         })
     }

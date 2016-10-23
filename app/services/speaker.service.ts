@@ -1,20 +1,21 @@
 import * as FileReader from '../utils/FileReader';
+import { Speaker } from '../models/Speaker';
+import { Session } from '../models/Session';
+
 export class SpeakerService{
-    private _items : Array<any> = null;
+    private _items : Speaker[] = null;
     
-    private getData():Promise<Array<any>>{
+    private getData():Promise<Speaker[]>{
         return new Promise((resolve, reject) => {
             if(this._items === null)
             {
                 FileReader.default.readJSON('data/speakers.json')
-                            .then(items => {
-                                
+                            .then( (items:Speaker[]) => {
                                 this._items = items.sort( (a,b) => {
                                     if(a.name < b.name) return -1;
                                     if(a.name > b.name) return 1;
                                     return 0;
                                 });
-
                                 resolve(items)
                             })
                             .catch(err => reject(err));
@@ -29,10 +30,10 @@ export class SpeakerService{
         return this.getData();
     }
 
-    private convertData():Promise<Array<any>>{
+    private convertData():Promise<Session[]>{
         return new Promise((resolve, reject) => {
             this.getData().then( items => {
-                var schedule = new Array<any>();
+                var schedule = new Array<Session>();
                 items.forEach(item => {
                     var sessions = item.sessions;
                     sessions.forEach(session => {
@@ -49,11 +50,11 @@ export class SpeakerService{
         });
     }
 
-    getSchedule():Promise<Array<any>>{
+    getSchedule():Promise<Session[]>{
         return this.convertData();
     }
 
-    getSessions():Promise<Array<any>>{
+    getSessions():Promise<Session[]>{
         return this.convertData();
     }
 
