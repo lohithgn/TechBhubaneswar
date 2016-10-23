@@ -1,0 +1,24 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" >
+    <Page.actionBar>
+        <ActionBar title="Speakers" icon="">
+            <NavigationButton text="Back" icon="" tap="" />
+        </ActionBar>
+    </Page.actionBar>
+    <GridLayout rows="*" columns="*">
+        <Image src="~/images/banner.jpg" stretch ="aspectFill"/>
+        <ListView items="{{ items }}"  separatorColor="#FFF" itemTap="onItemTap">
+            <ListView.itemTemplate>
+                <GridLayout rows="*" columns="*">
+                    <GridLayout rows="*" columns="100, *" margin="12" padding="12">
+                        <Image src="{{ '~/images/' + pic }}" stretch ="none" class="img-rounded" col="0" row="0" rowSpan="2" vertical-align="middle"/>
+                        <GridLayout rows="*,*,*" columns="*" col="1">
+                            <Label text="{{ name }}" class="h2" style="color:#FFF" textWrap="true" col="0" row="0"/>
+                            <Label text="{{ designation }}" class="h4" style="color:#FFF" textWrap="true" col="0" row="1" />
+                            <Label text="{{ company }}" class="h4" style="color:#FFF" textWrap="true" col="0" row="2"/>
+                        </GridLayout>
+                </GridLayout>
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </GridLayout>
+</Page>

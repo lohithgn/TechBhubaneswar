@@ -1,0 +1,35 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" xmlns:x="nativescript-statusbar">
+  <x:StatusBar ios:barStyle="dark" android:barStyle="#C2185B" />
+  <Page.actionBar>
+      <ActionBar title="Speakers">
+      </ActionBar>
+  </Page.actionBar>
+  <GridLayout rows="auto,10,*" columns="*">
+    
+    <SegmentedBar selectedIndex="{{ selectedIndex }}" backgroundColor="#E91E63" selectedBackgroundColor="#212121" color="#FFF"
+         selectedIndexChanged="{{ onTrackChange }}">
+        <SegmentedBar.items>
+            <SegmentedBarItem title="Mobile" />
+            <SegmentedBarItem title="Cloud" />
+            <SegmentedBarItem title="Testing" />
+            <SegmentedBarItem title="General" />
+        </SegmentedBar.items>
+    </SegmentedBar>
+
+    <ListView items="{{ Items }}" itemTap="{{onItemTap}}" row="2" separatorColor="#ECECEC">
+        <ListView.itemTemplate>
+            <GridLayout rows="*" columns="*">
+               <GridLayout rows="*" columns="100, *" class="speaker-item-container">
+                <Image src="{{ '~/images/' + pic }}" stretch ="none" class="img-rounded" col="0" row="0" rowSpan="2" vertical-align="middle"/>
+                <GridLayout rows="*,*,*" columns="*" col="1">
+                    <Label text="{{ name }}" class="h2" textWrap="true" col="0" row="0"/>
+                    <Label text="{{ designation }}" class="h3" textWrap="true" col="0" row="1" />
+                    <Label text="{{ company }}" class="h3" textWrap="true" col="0" row="2"/>
+                </GridLayout>
+               </GridLayout>
+            </GridLayout>
+        </ListView.itemTemplate>
+    </ListView>
+    
+  </GridLayout>
+</Page>

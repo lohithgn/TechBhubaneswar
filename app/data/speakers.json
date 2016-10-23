@@ -1,0 +1,224 @@
+[
+    {
+        "name":"Chinmoy Panda",
+        "designation":"President",
+        "company":"Mindfire, DateTheRamp",
+        "bio":"Chinmoy Panda has had several years of experience in the global software industry, employed with companies like Adobe Systems Inc, Interra Inc, James Martin & Co and Cadence Design Systems before he started Mindfire in year 1999 and DateTheRamp in year 2015. He has an approved United States patent in the areas of document analysis, document understanding and Internet search techniques. He had earned his BE in Computer Science from BITS Pilani and his MBA from IIM Ahmedabad",
+        "pic":"chinmoy-panda.png",
+        "sessions":[
+            {
+                "title":"Welcome Note",
+                "startTime":"2016-10-16T10:00",
+                "endTime":"2016-10-16T10:10",
+                "track":"General",
+                "details":""
+            }
+        ]
+    },
+    {
+        "name":"Siddharth Rajhans",
+        "designation":"Product Manager",
+        "company":"Apple Inc.",
+        "bio":"Siddharth Rajhans is a Silicon Valley Technocrat, first generation technology entrepreneur, TEDx speaker, former management researcher and the pioneer of the Outernet Technology in the Asia Pacific Region and India. He is a popular public figure and media personality and is a known face amongst the management fraternity, corporates and universities Pan-India and abroad as an Entrepreneurship and Youth Icon. He is currently employed with Apple as a Product Manager in Singapore and is the Global Lead for Everyone Can Code.",
+        "pic":"siddharth.png",
+        "sessions":[
+            {
+                "title":"Moonshot Innovations in Silicon Valley ",
+                "startTime":"2016-10-16T10:10",
+                "endTime":"2016-10-16T11:15",
+                "track":"General",
+                "details":"As part of the topic 'Moonshot Innovations in Silicon Valley' – Siddharth will be sharing his first-hand experiences and knowledge of working with Moonshot projects and innovations. This is the most important aspect of changing the way the start-up ecosystem in India will develop in the coming years."
+            },
+            {
+                "title":"Swift, A.I. and Big Data – the future of Web & Mobile",
+                "startTime":"2016-10-16T14:40",
+                "endTime":"2016-10-16T15:40",
+                "track":"Mobile & Web",
+                "details":"As part of this session, Siddharth will throw light on the advancements in 'Swift' – the coding language for iOS and his project “Everyone Can Code”. Siddharth launched this project at the WorldWide Developers Conference (WWDC 2016) of Apple in California Recently – Amazon, Facebook, Google and IBM – Together entered into a joint project on A.I. and most of these companies have been backing A.I. as one of the sole factors for R&D and building the future of a company. Siddharth will be citing these as examples and how the audience can make a career in this domain"
+            }
+        ]
+    },
+    {
+        "name":"Rahul Verma",
+        "designation":"Founder & CTO",
+        "company":"Test Mile, Talent Reboot",
+        "bio":"Rahul Verma is a serial testing entrepreneur from Bangalore. He is the Founder & CTO of Test Mile and Talent Reboot. He is the author of RahulVerma.net, co-creator of CMAP certifications and one of the authors of ISTQB foundations. He is an advisor and researcher for SALT – School of Applied Learning in Testing. An awarded thought leader for his contributions to Indian testing community, he is known for his practical and unified view of software testing.",
+        "pic":"rahul.png",
+        "sessions":[
+            {
+                "title":"Pattern Thinking for Test Automation Architects",
+                "startTime":"2016-10-16T11:30",
+                "endTime":"2016-10-16T12:30",
+                "track":"Software Testing",
+                "details":"Designing and implementing a test automation framework takes more than knowledge of coding, basic constructs and popular documented ways of doing it. A test automation architect should build on pattern thinking which is at the heart of designing any software. While most of the people confuse design patterns with GoF patterns, this presentation acknowledges the importance of the aforesaid patterns but discusses and demonstrates pattern thinking as a much more generic subject and the way of life for anyone interested in building test automation frameworks."
+            },
+            {
+                "title":"The Dogmatic Agile: A Critique of Deliberate Blindness of Indian Wannabe Agilists",
+                "startTime":"2016-10-16T14:40",
+                "endTime":"2016-10-16T15:40",
+                "track":"Software Testing",
+                "details":"There is Agile. And then there is the Dogmatic Agile – a system which lays down the incontrovertible truths, principles which you cannot change if you want to be called Agile. This talk discusses Agile in the Indian context, a world where everybody is either already Agile (self-proclaimed) or wants to be Agile, with a lot of focus on the “capital A” Agile, rather than being simply “agile”."
+            }
+        ]
+    },
+    {
+        "name":"Hari Bhaskar Sankaranarayanan",
+        "designation":"Director of Engineering",
+        "company":"Amadeus",
+        "bio":"Hari Bhaskar Sankaranarayanan is a researcher, writer and technologist. He is currently pursuing his research work at IIIT Bangalore in the area of travel systems domain specifically on software architectures. Hari is currently associated with Amadeus Labs, Bangalore as Director of Engineering leading the search, shopping and pricing teams. He graduated from PSG College of Technology, Coimbatore and completed his Masters from BITS Pilani. He has 2 patents publications granted and 3 more filed in the areas of voice recognition, classification and mobile app development for enterprise scale. He has 11 publications to his name in the areas of online privacy, microservices architecture, natural language processing and online travel reviews across IEEE, Elsevier, and Indian Statistical Institute conferences.",
+        "pic":"haribhaskar.png",
+        "sessions":[
+            {
+                "title":"Quality and Testing of Predictive Analytics and Big Data Applications",
+                "startTime":"2016-10-16T12:35",
+                "endTime":"2016-10-16T13:35",
+                "track":"Software Testing",
+                "details":"Objectives or Key Takeaway: 1. Quality and testing of big data application – what, why, how? 2. What skills are needed, where the data, tools are available to learn? 3. 2-3 Case studies – Rail + Fly network in India, Estimation of foreign tourist visits, Search Quality monitoring tools Big data and predict applications are extensively used for making data driven decisions and predicting future business values. With the advent of big data tools and processors, it is imperative that organizations are moving more towards applying them towards making revenues and profits. The role of a test or quality analyst is changing rapidly on the big data applications landscape."
+            }
+        ]
+    },
+    {
+        "name":"Ankit Srivastav",
+        "designation":"Test Analyst",
+        "company":"Infosys Ltd.",
+        "bio":"Ankit has an experience of more than 6 years in software testing. Currently he is employed with Infosys Ltd. as a Test Analyst. He has an engineering degree in Electronics and Telecommunication. He also holds Credential of Readiness from Harvard Business School in Financial Accounting, Business Analytics and Economics for Managers.",
+        "pic":"ankit.png",
+        "sessions":[
+            {
+                "title":"Implementation and Impact of Artificial Intelligence in Testing",
+                "startTime":"2016-10-16T15:45",
+                "endTime":"2016-10-16T16:00",
+                "track":"Software Testing",
+                "details":"Artificial Intelligence in testing is yet to be implemented in the real world. In the presentation I would be talking about, how Artificial Intelligence could be implemented in Testing. I would also be talking the economic and employment aspect of the industry when AI gets implemented."
+            }
+        ]
+    },
+    {
+        "name":"Lohith GN",
+        "designation":"Technical Evangelist",
+        "company":"Progress Software",
+        "bio":"Lohith is a Production Engineer by education, but software engineer by profession. He has over 15 years of industry experience. He is a Microsoft MVP in the area of Visual Studio Development & Technologies and focuses on ASP.NET. He has been awarded this prestigious title by Microsoft 5 years in a row now. He currently works as Technical Evangelist for Progress Software India.",
+        "pic":"lohith.png",
+        "sessions":[
+            {
+                "title":"Cross Platform Native Mobile Applications using Typescript",
+                "startTime":"2016-10-16T11:35",
+                "endTime":"2016-10-16T12:30",
+                "track":"Mobile & Web",
+                "details":"Native Mobile Application means you develop within the native boundary on the platform you want to support. Cross Platform Native Applications are the new breed of Mobile Apps where you have one single solution, one project, one team and you can package your app for multiplatform."
+            }
+        ]
+    },
+    {
+        "name":"Abhishek Sur",
+        "designation":"Software Architect",
+        "company":"InSync",
+        "bio":"Abhishek is a software architect. He has been a Microsoft MVP since 2011 in the area of Visual Studio Development and technologies with focus on ASP.NET. He has profound theoretical insight and years of hands-on experience in different .NET products and languages. Over the years, he has helped developers throughout the world with his experience and knowledge. He owns a Microsoft User Group in Kolkata named Kolkata Geeks and regularly organizes events to spread .NET awareness. A renowned public speaker, voracious reader, and technology buff, Abhishek’s main interest lies in exploring the new realms of .NET technology and put up journals on unexplored domains of .NET.",
+        "pic":"abhishek-sur.png",
+        "sessions":[
+            {
+                "title":"Building a Bot with an Intent",
+                "startTime":"2016-10-16T12:35",
+                "endTime":"2016-10-16T13:35",
+                "track":"Mobile & Web",
+                "details":"Bots are not new. They are the ones that replace the humans and responds to questions. They can be self-learning, provide solutions to thousands of people at a time. In this session, you will learn how to create a conversational bot, publishing it as azure service and also include it in Skype. Packed with demo, the session gives you insights on how to create dialogs, use Cognitive services to make it intelligent and use bots to aid common problems."
+            }
+        ]
+    },
+    {
+        "name":"Satej Sahu",
+        "designation":"Software Developer",
+        "company":"Mindfire Solutions",
+        "bio":"Satej Sahu is a Zend Certified PHP developer at Mindfire Solutions. He is also an Oracle MySQL certified developer. He has been working on web technologies and blogging actively at https://satejkumar.blogspot.com. He is passionate about developing simple elegant solutions to complex problems using both latest and day-to-day existential technologies with a goal to enrich the lives of users towards a better experience.",
+        "pic":"satej-kumar-sahu.png",
+        "sessions":[
+            {
+                "title":"Back to The Future: ES6",
+                "startTime":"2016-10-16T15:45",
+                "endTime":"2016-10-16T16:00",
+                "track":"Mobile & Web",
+                "details":"Goal during the presentation would be to talk about ECMAScript 6 and what promises it holds for us developers in general. Below are topics I will be trying to cover in my presentation time limit of 15 minutes: - What is EcmaScript? - How we have come forward from the very first version of ECMAScript to the current version 6 - Some notable features in ES6 highlighting better developer friendly environment and wider developer inclusiveness. - Conclusion – It’s a whole new world of awesomeness for a complete new developer experience."
+            }
+        ]
+    },
+    {
+        "name":"Prabhjot Bakshi",
+        "designation":"Director",
+        "company":"Getwings Technologies Pvt Ltd",
+        "bio":"Prabhjot Bakshi is the founder director of Getwings Technologies Private Limited, He is also the President at BSP IT & Communication and Executive Director of E-Consultacyfzc, Dubai. Since 2014, he has been extensively working with the country’s top Accelerators & Incubators. He closely works with CEOs of start-ups in creating awareness & educating them on their Azure Journey starting from enrolling for Bizspark program.",
+        "pic":"prabhjot.png",
+        "sessions":[
+            {
+                "title":" IoT with Azure",
+                "startTime":"2016-10-16T11:30",
+                "endTime":"2016-10-16T12:30",
+                "track":"Opensource & Cloud",
+                "details":"In this session he will  be talking about complete scenario of use case related to IoT, cloud and Big data Integration. Will discuss few of the future trends and will also demonstrate simple hello world over an IoT device using Microsoft Soft technology."
+            }
+        ]
+    },
+    {
+        "name":"Ankur Gupta",
+        "designation":"Sr. S/W Engg",
+        "company":"Mindfire Solutions",
+        "bio":"Ankur Gupta is working with Mindfire Solutions as senior software engineer. He is an active contributor in Jaspersoft community, delivered webinars for Jaspersoft, one of the professional blogger for Jaspersoft, passionate blogger as well as YouTube tutorial builder. Specialized in more than 5 BI tools such as Jaspersoft, Pentaho, BIRT, Tableau, Spago BI. Ankur is a SCJP/OCJP – Oracle Certified Java Programmer, MCP:70-480 – Specialist certification in HTML5 with JavaScript and CSS3 Exam, MongoDB expert. He is a technical reviewer for book called – Pentaho Business Analytics Cookbook’ for Packet Publishing and authoring – A book called Cookbook for reporting , due for publishing.",
+        "pic":"ankur.png",
+        "sessions":[
+            {
+                "title":"Business Intelligence – Sneak-Peek into future",
+                "startTime":"2016-10-16T12:35",
+                "endTime":"2016-10-16T13:35",
+                "track":"Opensource & Cloud",
+                "details":"The discussion will revolve around the various capabilities of Business Intelligence and analytics. This talk will try to give a perception of business intelligence to the attendees with few case studies on successful BI implementations. Also, this talk will have a demo which would give an idea to readiness and easiness which implementing BI involves."
+            }
+        ]
+    },
+    {
+        "name":"Sumit Jolly",
+        "designation":"Architect",
+        "company":"McKinsey",
+        "bio":"Sumit Jolly is a Microsoft MVP, C#Corner MVP and loves programming. He has a hands-on work experience of more than 11 years and working as an IT Architect. He has worked on Microsoft platform and many open source technologies. He believes in solving business problems via technology. He has been participating in various communities’ events since a very long time for sharing his knowledge and expertise with fellow programmers.",
+        "pic":"sumit.png",
+        "sessions":[
+            {
+                "title":"Reaction to React – ReactJS",
+                "startTime":"2016-10-16T14:45",
+                "endTime":"2016-10-16T15:40",
+                "track":"Opensource & Cloud",
+                "details":"The discussion will revolve around the various capabilities of Business Intelligence and analytics. This talk will try to give a perception of business intelligence to the attendees with few case studies on successful BI implementations. Also, this talk will have a demo which would give an idea to readiness and easiness which implementing BI involves."
+            }
+        ]
+    },
+    {
+        "name":"Tapaswi Sekhar Panda",
+        "designation":"Solution Architect",
+        "company":"Mindfire Solutions",
+        "bio":"Tapaswi Sekhar Panda is a solution architect and lead engineer with around 8 years of industry experience on building highly available and scalable web application based on cloud. He excels in rapidly integration and implementation of reliable and cutting edge technologies, full-stack software architecture designs, cloud infrastructure, deployment and Operations. He is currently working with Mindfire.",
+        "pic":"tapaswi.png",
+        "sessions":[
+            {
+                "title":"Microservice Architecture",
+                "startTime":"2016-10-16T15:45",
+                "endTime":"2016-10-16T16:00",
+                "track":"Opensource & Cloud",
+                "details":"Tapaswi will discuss what Microservice architecture is and why Micro-services are getting so much momentum and popularity in IT industry. What makes Microservice such an appealing architecture and how it’s different than the Monolithic approach. Finally what you need to do make effective Microservice"
+            }
+        ]
+    },
+    {
+        "name":"Col Prabir Sengupta",
+        "designation":"Ex Indian Army",
+        "company":"VSM",
+        "bio":"Col Prabir Sengupta is a seasoned professional with over 33+ years of experience in leadership, management, business strategy, administration, recruitment and consultancy in Indian Army, IT, core sector and educational domain and trained over 1500+ professionals. He was invited on the TED platform as a speaker. Col pursued his higher education at IIM, Bangalore (PGPEX), Global Univ 21, Symbiosis (Marketing) and Indore. He was Global Head for Hiring for Business Schools of an MNC handling the entire end-to-end process.",
+        "pic":"prabir-sengupta.png",
+        "sessions":[
+            {
+                "title":"How to Strengthen My Belief System",
+                "startTime":"2016-10-16T16:20",
+                "endTime":"2016-10-16T17:20",
+                "track":"General",
+                "details":"Inspiring session on how to believe in your self and how to strengthen your belief system"
+            }
+        ]
+    }
+]

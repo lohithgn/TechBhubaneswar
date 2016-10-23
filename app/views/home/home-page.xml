@@ -1,0 +1,26 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd"
+      backgroundSpanUnderStatusBar="true"  
+      actionBarHidden="true" >
+    <GridLayout rows="*" columns="*">
+        <Image src="~/images/banner.jpg" stretch ="aspectFill"/>
+        <GridLayout rows="100,auto, *" columns="*">
+            <StackLayout row="1">
+                <Image src="~/images/logo.png" horizontalAlignment="center" stretch="aspectFill" width="231" height="114"/>
+                <Label text="Where Techies Meet" horizontalAlignment="center" textWrap="true" class="h2" style="color:#FFF" />
+            </StackLayout>
+            <GridLayout rows="2*,*" columns="*" row="2">
+                <GridLayout rows="*,*,*" row="0"  style="margin-top:75">
+                    <Button text="Schedule" tap="onScheduleTap" row="0" style="background-color:green;color:#fff;height:60;margin:15"/>
+                    <Button text="Sessions" tap="onSessionsTap" row="1" style="background-color:#d35400;color:#fff;height:60;margin:15"/>
+                    <Button text="Speakers" tap="onSpeakersTap" row="2" style="background-color:#4654c1;color:#fff;height:60;margin:15"/>
+                </GridLayout>
+                <StackLayout orientation="horizontal" horizontalAlignment="center" verticalAlignment="center" row="1"> 
+                    <Image src="~/images/twitter.png"  stretch ="none" />
+                    <Image src="~/images/fb.png" stretch ="none" />
+                    <Image src="~/images/linkedin.png" stretch ="none" />
+                    <Image src="~/images/gplus.png" stretch ="none" />
+                </StackLayout>
+            </GridLayout>
+        </GridLayout>
+    </GridLayout>
+</Page>

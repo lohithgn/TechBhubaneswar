@@ -1,0 +1,24 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" >
+    <Page.actionBar>
+        <ActionBar title="Sessions" icon="">
+            <NavigationButton text="Back" icon="" tap="" />
+        </ActionBar>
+    </Page.actionBar>
+    <GridLayout rows="*" columns="*">
+        <Image src="~/images/banner.jpg" stretch ="aspectFill"/>
+        <ListView items="{{ items }}"  separatorColor="#FFF">
+            <ListView.itemTemplate>
+                <GridLayout rows="*" columns="*" >
+                    <GridLayout rows="*,*,*" columns="*" col="1" margin="12" >
+                        <Label text="{{ title }}" textWrap="true" class="h3 font-bold" style="padding:5;color:#FFF"   row="0"/>
+                        <Label text="{{ speaker  }}" textWrap="true" class="h3" style="padding:5;color:yellow"   row="1"/>
+                        <StackLayout orientation="horizontal" row="2">
+                            <Label text="{{ startTime | dateConverter }}" textWrap="true" class="h4" style="padding:5;color:gray" />
+                            <Label text="{{ '|   ' + track  }}" textWrap="true" class="h4" style="padding:5;color:gray" />
+                        </StackLayout>
+                    </GridLayout>
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </GridLayout>
+</Page>

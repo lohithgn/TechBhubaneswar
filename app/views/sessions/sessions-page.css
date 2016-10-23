@@ -1,0 +1,11 @@
+ActionBar {
+    background-color: #d35400;
+    color:#FFF;
+}
+
+.sessions-item-container{
+    background-color: #000;
+    opacity: 0.3;
+    border-radius: 5;
+    padding:10;
+}

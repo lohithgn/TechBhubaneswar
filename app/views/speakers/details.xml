@@ -1,0 +1,48 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" xmlns:x="nativescript-statusbar">
+    <Page.actionBar>
+        <ActionBar title="{{ name }}">
+        </ActionBar>
+    </Page.actionBar>
+    <TabView id="tabViewContainer">
+        <TabView.items>
+            <TabViewItem title="Details">
+                <TabViewItem.view>
+                    <GridLayout rows="25,*" columns="*">
+                        <Image src="~/images/banner.jpg" stretch ="aspectFill" rowspan="2" row="0"/>
+                        <StackLayout row="1">
+                            <Image src="{{ '~/images/' + pic }}" stretch ="aspectFill" width="135" height="135" horizontal-align="center" />
+                            <GridLayout rows="auto,auto" columns="*" >
+                                <Label text="{{ name }}" textWrap="true" class="h1" style.textAlignment="center" style="color:#FFF"/>
+                                <Label text="{{ designation + ', ' + company }}" row="1" textWrap="true" class="h3" style.textAlignment="center" style="color:#FFF"/>
+                            </GridLayout>
+                            <Label text="{{ bio }}" textWrap="true" margin="12" class="h3" style="color:#FFF"/>
+                        </StackLayout>
+                    </GridLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+            <TabViewItem title="Sessions">
+                <TabViewItem.view>
+                    <GridLayout rows="*" columns="*">
+                        <Image src="~/images/banner.jpg" stretch ="aspectFill"/>
+                        <ListView items="{{ sessions }}" class="list-group" separatorColor="#FFF">
+                            <ListView.itemTemplate>
+                                <GridLayout rows="*,*,*" columns="*" class="list-group-item">
+                                    <StackLayout orientation="horizontal">
+                                        <Label text="{{ startTime | dateConverter }}" class="h5" textWrap="true" />
+                                        <Label text=" - " class="h5" textWrap="true" />
+                                        <Label text="{{ endTime | dateConverter}}" class="h5" textWrap="true" />
+                                    </StackLayout>
+                                    <Label text="{{ title  }}" row="1" class="h2" textWrap="true" style="color:#fff"/>
+                                    <Label text="{{ track }}" row="2" class="h5" textWrap="true" />
+                                </GridLayout>
+                            </ListView.itemTemplate>
+                        </ListView>
+                    </GridLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+        </TabView.items>
+    </TabView>
+    
+
+    
+</Page>
